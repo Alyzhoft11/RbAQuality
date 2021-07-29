@@ -7,7 +7,7 @@ export default function App() {
     <div>
       <Navbar />
       <div className="flex justify-center items-center w-full mt-10">
-        <div className="w-1/3 mx-2">
+        <div className="w-1/3 mx-2 bg-white p-2 rounded-lg shadow-lg">
           <iframe
             className="w-full h-96  rounded-lg"
             title="Test"
@@ -17,7 +17,7 @@ export default function App() {
             <span className=" text-xl">As Ordered</span>
           </div>
         </div>
-        <div className="w-1/3 mx-2">
+        <div className="w-1/3 mx-2 bg-white p-2 rounded-lg shadow-lg">
           <img
             className="w-full h-96 rounded-lg"
             src="https://aw930cdnprdcd.azureedge.net/-/media/andersenwindows/images/help-me-choose/100-series-single-hung-interior.png?modified=20190827152250&mh=402&la=en&h=402&w=402&mw=402&hash=DCBAE4DFC310C97781F20F4452487775"
@@ -27,9 +27,9 @@ export default function App() {
             <span className=" text-xl">As Manufactured</span>
           </div>
         </div>
-        <div className="w-1/3 mx-2">
+        <div className="w-1/3 mx-2 bg-white p-2 rounded-lg shadow-lg">
           <div className="h-96 flex-col">
-            <div>
+            <div className="ml-5">
               <ul className="list-disc w-full rounded-lg">
                 <li className="text-green-600">AI Color Verification</li>
                 <li className="text-green-600">AI Hardware Verification</li>
